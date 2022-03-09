@@ -1,0 +1,55 @@
+{
+  "name": "eva-exchange",
+  "description": "A take-home assignment",
+  "version": "0.1.0",
+  "contributors": [
+    "Behzad Boostanchi <behzad@boostanchi.com>"
+  ],
+  "keywords": [
+    "rest",
+    "server",
+    "api"
+  ],
+  "dependencies": {
+    "@types/busboy": "^0.2.3",
+    "@types/node": "^14.14.28",
+    "app-root-path": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.11.0",
+    "fastify-cli": "^2.7.0",
+    "fastify-multipart": "^4.0.3",
+    "ioredis": "^4.24.5",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "chai-arrays": "^2.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-uuid": "^1.0.6",
+    "eslint": "^7.19.0",
+    "joi": "^17.3.0",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.4",
+    "sinon-chai": "^3.5.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development PROCESS_TYPE=web node server/server.js",
+    "test": "npm run test-web",
+    "test-web": "NODE_ENV=test PROCESS_TYPE=web mocha test/setup.js 'server/**/*.spec.js' 'model/**/*.spec.js'"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitchway/zenith-back.git"
+  },
+  "author": "hayoola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pitchway/zenith-back/issues"
+  },
+  "homepage": "https://github.com/pitchway/zenith-back#readme",
+  "type": "module"
+}

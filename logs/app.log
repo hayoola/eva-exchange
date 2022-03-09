@@ -1,0 +1,10 @@
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}

@@ -8,3 +8,342 @@
 {"level":"info","message":"Yes the host header was set: hayoola.domain"}
 {"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
 {"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL: SequelizeConnectionError: password authentication failed for user \"behzad\""}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL: SequelizeConnectionError: password authentication failed for user \"postgres\""}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL: SequelizeConnectionError: password authentication failed for user \"postgres\""}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL: SequelizeConnectionError: password authentication failed for user \"postgres\""}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL: SequelizeConnectionError: password authentication failed for user \"postgres\""}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL: SequelizeConnectionError: password authentication failed for user \"postgres\""}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"error","message":"****** Oh no, can't connect to PostgreSQL: SequelizeConnectionError: password authentication failed for user \"postgres\""}
+{"level":"error","message":"test/setup:before error: Error: Sequelize instance is null!"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"All models were synchronized successfully."}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"UserRepo::registerUser begins: Bob"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"UserRepo::registerUser begins: Bob"}
+{"level":"info","message":"UserRepo::registerUser begins: Jane"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"UserRepo::registerUser begins: Bob"}
+{"level":"info","message":"UserRepo::registerUser begins: Jane"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"UserRepo::registerUser begins: Bob"}
+{"level":"info","message":"UserRepo::registerUser begins: Jane"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}

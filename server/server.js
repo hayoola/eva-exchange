@@ -5,7 +5,7 @@ import { build } from './app.js';
 
 
 //console.log('config ', config);
-config.loggman.info('Welcome to Zenith!');
+config.loggman.info('Welcome to EvaExchange!');
 // const app = fastify({logger: true});
 
 // eslint-disable-next-line no-unused-vars

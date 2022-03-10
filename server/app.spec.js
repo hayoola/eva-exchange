@@ -7,9 +7,7 @@ import { build } from './app.js';
 import { fastify } from 'fastify';
 // eslint-disable-next-line no-unused-vars
 const { FastifyInstance, FastifyLoggerInstance} = fastify;
-import { RedisConnection } from '../model/foundation/redis.js';
-// eslint-disable-next-line no-unused-vars
-import Redis from 'ioredis';
+
 
 
 
@@ -20,21 +18,9 @@ describe('Server Test Suites', () => {
   */
   let mApp = null;
 
-  /**
-   * @type Redis.Redis
-  */
-  let mRedis = null;
 
   
-
   before( async function () {
-
-    mRedis = await RedisConnection.getInstance();
-    if( mRedis.status != 'ready' ) {
-      this.skip();
-    }
-
-    
 
     mApp = await build();
     if( !mApp ) {
@@ -114,10 +100,6 @@ describe('Server Test Suites', () => {
     });
 
   });
-
-
-  
-
 
 
 

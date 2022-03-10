@@ -10,7 +10,8 @@
 			"fastify",
 			"Geda",
 			"hayoola",
-			"loggman"
+			"loggman",
+			"Sequalize"
 		]
 	}
 }

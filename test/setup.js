@@ -5,11 +5,17 @@ import sinon from 'sinon';
 import chai from 'chai';
 import sinonChai from 'sinon-chai';
 import config from '../config/index.js';
-import { RedisConnection } from '../model/foundation/redis.js';
+import { SequelizeSingleton } from '../model/foundation/sequalize.js';
+// eslint-disable-next-line no-unused-vars
+import { Sequelize } from 'sequelize';
 
 
 
-let mRedis = null;
+
+/**
+ * @type {Sequelize}
+*/
+let mSequelize = null;
 
 before( async function () {
 
@@ -20,10 +26,9 @@ before( async function () {
   
   try {
 
-    
-    mRedis = await RedisConnection.getInstance();
-    if(! mRedis ) {
-      throw new Error(`Redis connection is null!`);
+    mSequelize = await SequelizeSingleton.getInstance();
+    if( !mSequelize ) {
+      throw new Error('Sequelize instance is null!');
     }
 
   } catch( inError ) {
@@ -41,10 +46,7 @@ after( function () {
   
   config.loggman.info('After all tests...');
   
-  
-  if( mRedis ) {
-    mRedis.disconnect();
-  }
+  if( mSequelize ) mSequelize.close();
   
 });
 

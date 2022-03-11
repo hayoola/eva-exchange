@@ -95,6 +95,20 @@ describe('PortfolioRepo Test suites', function () {
 
     });
 
+
+    it('should bulk register two portfolios correctly', async function() {
+
+      const names = ['Bob', 'Jane'];
+      const userModels = await mUserRepo.bulkRegisterUser(names);
+      expect(userModels.length).eqls(2);
+
+      const userIDs = userModels.map( (inElement) => inElement.id);
+
+      const portfolioModels = await mPortfolioRepo.bulkRegisterPortfolio(userIDs);
+      expect( portfolioModels.length).eqls(2);
+
+    });
+
   });
 
 
@@ -124,6 +138,7 @@ describe('PortfolioRepo Test suites', function () {
 
       const symbol = 'APL';
       const initialRate = 12.56;
+      const rateOfBuy = 19.23;
       const name = 'Apple Inc.';
 
       const stockModel = await mStockRepo.registerStock( symbol, initialRate, name);
@@ -142,9 +157,13 @@ describe('PortfolioRepo Test suites', function () {
         portfolioModel.id,
         symbol,
         16,
-        19.23
+        rateOfBuy
       );
       expect(transactionLog).not.null;
+
+      // Check the stock's rate got updated
+      const latestStockRate = await mStockRepo.latestStockRate(symbol);
+      expect(latestStockRate).eqls(rateOfBuy);
 
     });
 
@@ -158,6 +177,8 @@ describe('PortfolioRepo Test suites', function () {
 
       const symbol = 'APL';
       const initialRate = 12.56;
+      const rateOfBuy_1 = 18.65;
+      const rateOfBuy_2 = 21.19;
       const name = 'Apple Inc.';
 
       const stockModel = await mStockRepo.registerStock( symbol, initialRate, name);
@@ -176,7 +197,7 @@ describe('PortfolioRepo Test suites', function () {
         portfolioModel.id,
         symbol,
         16,
-        18.65
+        rateOfBuy_1
       );
       expect(transactionLog1).not.null;
 
@@ -184,9 +205,13 @@ describe('PortfolioRepo Test suites', function () {
         portfolioModel.id,
         symbol,
         4,
-        21.19
+        rateOfBuy_2
       );
       expect(transactionLog2).not.null;
+
+      // Check the stock's rate got updated
+      const latestStockRate = await mStockRepo.latestStockRate(symbol);
+      expect(latestStockRate).eqls(rateOfBuy_2);
 
       const numOfShares = await mPortfolioRepo.computePortfolioStockShares(
         portfolioModel.id,
@@ -207,6 +232,8 @@ describe('PortfolioRepo Test suites', function () {
 
       const symbol = 'APL';
       const initialRate = 12.56;
+      const rateOfBuy = 15.54;
+      const rateOSell = 17.11;
       const name = 'Apple Inc.';
 
       const stockModel = await mStockRepo.registerStock( symbol, initialRate, name);
@@ -225,7 +252,7 @@ describe('PortfolioRepo Test suites', function () {
         portfolioModel.id,
         symbol,
         16,
-        17.11
+        rateOfBuy
       );
       expect(transactionLog1).not.null;
 
@@ -233,7 +260,7 @@ describe('PortfolioRepo Test suites', function () {
         portfolioModel.id,
         symbol,
         6,
-        17.45
+        rateOSell
       );
       expect(wasSold).to.be.true;
 
@@ -242,6 +269,10 @@ describe('PortfolioRepo Test suites', function () {
         symbol
       );
       expect(numOfShares).eqls(10);
+
+      // Check the stock's rate got updated
+      const latestStockRate = await mStockRepo.latestStockRate(symbol);
+      expect(latestStockRate).eqls(rateOSell);
 
     });
 
@@ -279,6 +310,37 @@ describe('PortfolioRepo Test suites', function () {
         18.10
       );
       expect(wasSold).to.be.false;
+
+    });
+
+  });
+
+
+
+  describe('#queryPortfolios tests', function() {
+
+    it('should return the list of portfolios', async function() {
+
+      const symbol = 'APL';
+      const initialRate = 12.56;
+      const name = 'Apple Inc.';
+
+      const stockModel = await mStockRepo.registerStock( symbol, initialRate, name);
+      expect(stockModel).not.null;
+
+      const userName = 'Bob';
+      const userModel = await mUserRepo.registerUser( userName);
+      expect(userModel).not.null;
+      expect(userModel).not.undefined;
+
+      const portfolioModel = await mPortfolioRepo.registerPortfolio(userModel.id);
+      expect( portfolioModel).not.null;
+      expect( portfolioModel).not.undefined;
+
+      const portfolioArray = await mPortfolioRepo.queryPortfolios();
+      expect(portfolioArray).not.undefined;
+      expect(portfolioArray.length).eqls(1);
+      expect(portfolioArray[0].id).eqls(portfolioModel.id);
 
     });
 

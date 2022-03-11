@@ -72,6 +72,25 @@ class UserRepo {
   }
 
 
+  async bulkRegisterUser(inNames) {
+
+    const usersArrayPromises = inNames.map( async (inSingleName) => {
+
+      const nid = await nanoid();
+      const oneElement = {
+        id: nid,
+        name: inSingleName
+      }
+      return oneElement;
+    });
+
+    const usersArray = await Promise.all(usersArrayPromises);
+
+    const userModels = await User.bulkCreate(usersArray);
+    return userModels;
+  }
+
+
   async getByID( inID ) {
 
     const foundUser = await User.findByPk( inID);

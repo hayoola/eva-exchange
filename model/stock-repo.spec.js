@@ -76,6 +76,15 @@ describe('StockRepo Test suites', function () {
       expect(stockModel.last_rate_id).eqls(1);
     });
 
+    it('should bulk register two stocks', async function() {
+
+      const symbols = ['APL', 'NZD'];
+      const modelsArray = await mStockRepo.bulkRegisterStock(symbols);
+      expect(modelsArray).not.undefined;
+      expect(modelsArray.length).eqls(2);
+
+    })
+
   });
 
 

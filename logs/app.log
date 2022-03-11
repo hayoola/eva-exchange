@@ -1162,3 +1162,366 @@
 {"level":"info","message":"Yes the host header was set: hayoola.domain"}
 {"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
 {"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Welcome to EvaExchange!"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"Before all tests..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:"}
+{"level":"info","message":"Yes the host header was set: localhost:80"}
+{"level":"info","message":"The Body: {\"hello\":\"world\"}"}
+{"level":"info","message":"The route params:","name":""}
+{"level":"info","message":"The route queries:","name":"hayoola"}
+{"level":"info","message":"Yes the host header was set: hayoola.domain"}
+{"level":"info","message":"The Body: {\"hello\":\"world\",\"host\":\"hayoola.domain\"}"}
+{"level":"info","message":"After all tests..."}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The script finished normally."}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The script finished normally."}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The script finished normally."}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The script finished normally."}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The script finished normally."}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The script finished normally."}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"error","message":"An error occurred in the 'main': Error: Can't sell portfolio: ZUGDEh32HNf9H8x87sgCb"}
+{"level":"debug","message":"The script finished normally."}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"error","message":"An error occurred in the 'main': Error: Can't sell portfolio: UXa8PP3IgzlYLbkANUS6H"}
+{"level":"error","message":"An error occurred in the script: Error: Error: Can't sell portfolio: UXa8PP3IgzlYLbkANUS6H"}
+{"level":"debug","message":"The main begins..."}
+{"level":"info","message":"Connection has been established successfully"}
+{"level":"debug","message":"The script finished normally."}

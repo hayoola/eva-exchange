@@ -68,6 +68,15 @@ describe('UserRepo Test suites', function () {
     });
 
 
+    it( 'should bulk create twp users', async function() {
+
+      const names = ['Bob', 'Jane'];
+      const userModels = await mUserRepo.bulkRegisterUser(names);
+      expect(userModels.length).eqls(2);
+      expect(userModels[0].name).to.equal(names[0]);
+      expect(userModels[0].id).to.not.empty;
+    });
+
   });
 
 

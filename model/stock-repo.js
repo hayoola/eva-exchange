@@ -142,6 +142,29 @@ class StockRepo {
 
 
 
+  async bulkRegisterStock(
+    inSymbols,
+  ) {
+
+    const stocksArray = inSymbols.map( (inSingleSymbol) => {
+
+      const oneElement = {
+        symbol: inSingleSymbol, 
+        name: '', 
+        last_rate_id: 0 
+      };
+
+      return oneElement;
+      
+    });
+
+    const newStocks = await Stock.bulkCreate(stocksArray);
+    return newStocks;
+
+  }
+
+
+
 
 
 

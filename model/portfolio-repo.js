@@ -157,6 +157,24 @@ class PortfolioRepo {
 
 
 
+  async bulkRegisterPortfolio( inUserIDs ) {
+
+    const portfolioArrayPromises = inUserIDs.map( async (inSingleID) => {
+
+      const nid = await nanoid();
+      const oneElement = {
+        id: nid,
+        user_id: inSingleID
+      }
+      return oneElement;
+    });
+
+    const portfoliosArray = await Promise.all(portfolioArrayPromises);
+    const portfolioModels = await Portfolio.bulkCreate(portfoliosArray);
+    return portfolioModels;
+  }
+
+
 
   async portfolioByUserID( inUserID ) {
 
@@ -237,6 +255,16 @@ class PortfolioRepo {
     const numOfShares = parseInt(queryModel[0].dataValues.n_shares);
 
     return numOfShares;
+  }
+
+
+
+
+  async queryPortfolios() {
+
+    const portfolioArray = await Portfolio.findAll({raw : true});
+
+    return portfolioArray;
   }
 
 

@@ -1,6 +1,6 @@
 'use strict';
 
-//import config from '../../config/index.js';
+import config from '../config/index.js';
 import { expect } from 'chai';
 import sinon from 'sinon';
 // eslint-disable-next-line no-unused-vars
@@ -26,7 +26,11 @@ describe('UserRepo Test suites', function () {
   beforeEach( async function() {
 
     mUserRepo = await UserRepoSingleton.geUserRepoInstance();
-    await mUserRepo.sync();
+    if( !mUserRepo ) {
+      config.loggman.error(`can't create a mUserRepo instance`);
+      this.skip();
+    }
+    await mUserRepo.syncSchemaWithDatabase();
   });
 
 
@@ -41,7 +45,7 @@ describe('UserRepo Test suites', function () {
     const sequalize = await SequelizeSingleton.getInstance();
     await sequalize.drop();
 
-  })
+  });
 
 
   describe('#UserRepo user registration', function() {
@@ -51,7 +55,7 @@ describe('UserRepo Test suites', function () {
       const name = 'Bob';
       const userModel = await mUserRepo.registerUser( name);
       expect(userModel.name).to.equal(name);
-      expect(userModel.id).eqls(1);
+      expect(userModel.id).to.not.empty;
     });
 
 
@@ -60,7 +64,7 @@ describe('UserRepo Test suites', function () {
       const name = 'Jane';
       const userModel = await mUserRepo.registerUser( name);
       expect(userModel.name).to.equal(name);
-      expect(userModel.id).eqls(1); // Unit tests should be independent!
+      expect(userModel.id).to.not.empty;
     });
 
 
@@ -69,12 +73,12 @@ describe('UserRepo Test suites', function () {
 
   describe('#UserRepo user retrieval', function() {
 
-    it( 'should return the last user out of two', async function() {
+    it( 'should return the last registered user', async function() {
 
       const name = 'Bob';
-      await mUserRepo.registerUser( name);
+      const registeredUser = await mUserRepo.registerUser( name);
 
-      const foundUser = await mUserRepo.getByID(1);
+      const foundUser = await mUserRepo.getByID(registeredUser.id);
       expect(foundUser).to.not.null;
       expect(foundUser.name).eqls( name);
 

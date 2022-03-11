@@ -2,6 +2,7 @@
 
 
 import config from '../config/index.js';
+import { nanoid } from 'nanoid/async';
 // eslint-disable-next-line no-unused-vars
 import { Sequelize, Model, DataTypes } from 'sequelize';
 import { SequelizeSingleton } from './foundation/sequalize.js';
@@ -21,9 +22,8 @@ class UserRepo {
     try {
 
       const sequelizeInstance = await SequelizeSingleton.getInstance();
-
       mUserRepo = new UserRepo( sequelizeInstance);
-      await mUserRepo.sync();
+      await mUserRepo.syncSchemaWithDatabase();
 
     } catch( inError ) {
 
@@ -42,8 +42,7 @@ class UserRepo {
     
     User.init({
       id: {
-        type: DataTypes.INTEGER,
-        autoIncrement: true,
+        type: DataTypes.CHAR(21),
         primaryKey: true,
       },
       name: {
@@ -57,7 +56,7 @@ class UserRepo {
   }
 
 
-  async sync() {
+  async syncSchemaWithDatabase() {
 
     await User.sync();
   }
@@ -65,7 +64,8 @@ class UserRepo {
 
   async registerUser(inName) {
 
-    const newUser = await User.create({ name: inName});
+    const nid = await nanoid();
+    const newUser = await User.create({ id: nid, name: inName});
     console.debug(newUser.toJSON());
 
     return newUser;
@@ -82,7 +82,6 @@ class UserRepo {
 
 
 class User extends Model {
-
 
 }
 
@@ -120,5 +119,6 @@ const UserRepoSingleton = (function () {
 
 export {
   UserRepoSingleton,
-  UserRepo
+  UserRepo,
+  User
 }
